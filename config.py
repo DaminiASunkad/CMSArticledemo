@@ -2,11 +2,11 @@ import os
 from urllib.parse import quote_plus
 
 class Config(object):
-    SECRET_KEY = "f91ede67a5dba270a487a8c29805b07e4e07c98ea7ff704523a327a0228b3685"
+    SECRET_KEY = "87f4a864b7682e5abee526bfec36af9b408f825c4daf5dcb7d7c7012b2914aff"
 
     # Azure Blob Storage
     BLOB_ACCOUNT = "images19"
-    BLOB_STORAGE_KEY = "v542FfhCsBOqfoPIPYfmvy5sse+XASkorkyNmymq7ZCnFqWux5fjTVwCfuYzxdGdBThR1dvcyDrL+AStaVMEJQ=="
+    BLOB_STORAGE_KEY = "pzqITF8WLL6xmxPt2GF3LTopin3khqjpHglHtddktMpZir/CgF83UpvsKd60ihPIR1BP5WkOQ0lU+AStdAv9Lg=="
     BLOB_CONTAINER = "image"
     # Azure SQL Database
     SQL_SERVER = "cmsdemodb.database.windows.net"
@@ -27,8 +27,8 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Azure Active Directory (MSAL)
-    CLIENT_ID = "d9425ce4-ed95-4a74-8a20-bf071ea8458b"
-    CLIENT_SECRET = "D_V8Q~Sw~LpRUtaU~s7CJhLMg.8D0KBHxmszFcMc"
+    CLIENT_ID = "0379fa9f-f75f-45ec-823b-d43a15dde2d6"
+    CLIENT_SECRET = "qQm8Q~IjMw-yByAql0boezk1Q1KPek.q_xj9vbvt"
     TENANT_ID = "f958e84a-92b8-439f-a62d-4f45996b6d07"
 
     AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID or 'common'}"
